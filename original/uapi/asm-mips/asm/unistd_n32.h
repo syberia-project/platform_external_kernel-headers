@@ -363,9 +363,10 @@
 #define __NR_fsconfig	(__NR_Linux + 431)
 #define __NR_fsmount	(__NR_Linux + 432)
 #define __NR_fspick	(__NR_Linux + 433)
+#define __NR_pidfd_open	(__NR_Linux + 434)
 
 #ifdef __KERNEL__
-#define __NR_syscalls	434
+#define __NR_syscalls	435
 #endif
 
 #endif /* _UAPI_ASM_MIPS_UNISTD_N32_H */
